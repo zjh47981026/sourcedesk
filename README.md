@@ -28,7 +28,7 @@ Requires Java 17–25. The included build was tested with Java 25.
 bash start-local.command
 ```
 
-On macOS, double-click start-local.command or run it in a terminal. The original delivery can use its adjacent downloaded Ollama runtime; a fresh GitHub clone requires installing Ollama and pulling qwen3:4b first.
+On macOS, double-click start-local.command from the original local delivery, or run it in a terminal. Files downloaded through GitHub may need their execute permission restored for double-click launching; bash start-local.command works without it. The original delivery can use its adjacent downloaded Ollama runtime; a fresh GitHub clone requires installing Ollama and pulling qwen3:4b first.
 
 Open http://127.0.0.1:8787 and click **Try sample documents**. The samples describe a fictional company's leave, learning and travel policies; no personal files are included.
 

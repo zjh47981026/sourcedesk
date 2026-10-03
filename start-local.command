@@ -23,4 +23,4 @@ fi
 export OLLAMA_MODEL="${OLLAMA_MODEL:-qwen3:4b}"
 echo "SourceDesk: http://127.0.0.1:${PORT:-8787}"
 echo "Local model: $OLLAMA_MODEL. Press Ctrl+C to stop."
-./run.sh
+bash ./run.sh
